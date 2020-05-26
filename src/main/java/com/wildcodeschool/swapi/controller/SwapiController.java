@@ -14,7 +14,7 @@ import reactor.core.publisher.Mono;
 @Controller
 public class SwapiController {
 
-    private static final String SWAPI_URL = "https://swapi.co/api";
+    private static final String SWAPI_URL = "https://swapi.dev/api";
 
     @GetMapping("/")
     public String index() {
